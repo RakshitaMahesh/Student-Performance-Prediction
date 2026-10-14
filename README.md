@@ -1,5 +1,24 @@
 # Student Performance Prediction Using Machine Learning
 
+## 🚀 Live Demo
+
+Try the application online: [**Student Performance Predictor**](https://student-performance-prediction-w2tgs8wnria6doit5xmerb.streamlit.app/)
+
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Pandas and NumPy
+- Scikit-learn
+- Random Forest Regressor
+
+## ✨ Features
+
+- Interactive student details form
+- Predicts estimated average exam scores
+- Displays model evaluation metrics
+- Simple, user-friendly web interface
+
 ## Project Overview
 This mini-project uses machine learning to predict students' average academic scores based on their demographic information and educational background.
 
