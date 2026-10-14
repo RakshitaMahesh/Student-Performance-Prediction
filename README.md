@@ -14,13 +14,13 @@ The project uses the Students Performance dataset, which contains information ab
 - Matplotlib
 
 ## Machine Learning Algorithm
-- Linear Regression
+-Random Forest Regressor
 
 ## Implementation
 1. Load the student performance dataset.
 2. Preprocess the data and select relevant features.
 3. Split the dataset into training and testing sets.
-4. Train the Linear Regression model.
+4. Train the Random Forest Regressor model.
 5. Evaluate the model using MAE, RMSE, and R² score.
 6. Save the predictions and generate a graph comparing actual and predicted scores.
 
