@@ -42,15 +42,15 @@ An interactive machine learning web application that predicts students' average 
 ## 📸 Screenshots
 ### 1. Student Performance Predictor App
 
-![Student Performance Predictor App](screenshots/Student_Performance_Predictor_App.png)
+![Student Performance Predictor App](Student_Performance_Predictor_App.png)
 
 ### 2. Prediction Result
 
-![Prediction Result](screenshots/Student_Performance_Prediction_Result.png)
+![Prediction Result](Student_Performance_Prediction_Result.png)
 
 ### 3. Prediction Graph
 
-![Prediction Graph](screenshots/Student_Performance_Prediction_Graph.png)
+![Prediction Graph](Student_Performance_Prediction_Graph.png)
 
 ## ▶️ Run Locally
 ## ▶️ Run Locally
