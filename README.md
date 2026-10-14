@@ -50,9 +50,10 @@ An interactive machine learning web application that predicts students' average 
 
 ### 3. Prediction Graph
 
-![Prediction Graph](Student_Performance_Prediction_Graph.png)
+### 3. Prediction Graph
 
-## ▶️ Run Locally
+![Prediction Graph](prediction_plot.png)
+
 ## ▶️ Run Locally
 
 1. Clone this repository:
