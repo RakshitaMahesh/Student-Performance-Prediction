@@ -1,67 +1,103 @@
-# Student Performance Prediction Using Machine Learning
+# 🎓 Student Performance Prediction Using Machine Learning
+
+An interactive machine learning web application that predicts students' average exam scores based on demographic and educational background information.
 
 ## 🚀 Live Demo
 
-Try the application online: [**Student Performance Predictor**](https://student-performance-prediction-w2tgs8wnria6doit5xmerb.streamlit.app/)
+**Try the application:** [Student Performance Predictor](https://student-performance-prediction-w2tgs8wnria6doit5xmerb.streamlit.app/)
 
-## 🛠️ Technologies Used
+## 🎯 Project Objectives
 
-- Python
-- Streamlit
-- Pandas and NumPy
-- Scikit-learn
-- Random Forest Regressor
+- Develop a machine learning model to estimate student academic performance.
+- Explore the relationship between student background information and exam scores.
+- Build an interactive web application for entering student details and viewing predictions.
+- Evaluate model performance using standard regression metrics.
 
 ## ✨ Features
 
-- Interactive student details form
-- Predicts estimated average exam scores
-- Displays model evaluation metrics
-- Simple, user-friendly web interface
+- Interactive student details form.
+- Average exam score prediction.
+- Random Forest Regression model.
+- Model evaluation using Mean Absolute Error (MAE).
+- User-friendly Streamlit interface.
+- Online deployment for easy access.
 
-## Project Overview
-This mini-project uses machine learning to predict students' average academic scores based on their demographic information and educational background.
+## 🔄 Project Workflow
 
-## Dataset
-The project uses the Students Performance dataset, which contains information about students' gender, parental education, lunch type, test preparation, and mathematics, reading, and writing scores.
+1. **Data Collection:** Load the Students Performance dataset.
+2. **Data Preprocessing:** Prepare categorical and numerical features.
+3. **Model Training:** Train a Random Forest Regressor.
+4. **Prediction:** Estimate the average exam score from the selected student details.
+5. **Evaluation:** Measure model performance using MAE and other regression metrics.
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+## 🛠️ Technologies Used
 
-## Machine Learning Algorithm
--Random Forest Regressor
+- **Programming Language:** Python
+- **Web Framework:** Streamlit
+- **Data Processing:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn
+- **Algorithm:** Random Forest Regressor
+- **Dataset:** Students Performance in Exams
 
-## Implementation
-1. Load the student performance dataset.
-2. Preprocess the data and select relevant features.
-3. Split the dataset into training and testing sets.
-4. Train the Random Forest Regressor model.
-5. Evaluate the model using MAE, RMSE, and R² score.
-6. Save the predictions and generate a graph comparing actual and predicted scores.
+## 📸 Screenshots
 
-## Results
-- **Mean Absolute Error (MAE):** 11.49
-- **Root Mean Squared Error (RMSE):** 14.82
-- **R² Score:** -0.025
+### 1. Student Performance Predictor App
 
-The current model shows poor predictive performance, as indicated by the negative R² score. Further feature engineering and model improvement are needed.
+![Student Performance Predictor App](screenshots/Student_Performance_Predictor_App.png)
 
-## Project Files
-- `student_performance.py` – Model implementation
-- `StudentsPerformance.csv` – Dataset
-- `prediction_results.csv` – Actual and predicted scores
-- `prediction_plot.png` – Prediction visualization
-- `student_performance_graph.png` – Saved graph
-- `requirements.txt` – Required Python libraries
+### 2. Prediction Result
 
-## How to Run
-1. Install Python.
-2. Install dependencies using `pip install -r requirements.txt`.
-3. Run `python student_performance.py`.
+![Prediction Result](screenshots/Student_Performance_Prediction_Result.png)
 
-## Conclusion
-This project demonstrates the basic machine learning workflow for student performance prediction, including data preparation, model training, evaluation, and visualization.
+### 3. Prediction Graph
+
+![Prediction Graph](screenshots/Student_Performance_Prediction_Graph.png)
+
+## ▶️ Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/RakshitaMahesh/Student-Performance-Prediction.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd Student-Performance-Prediction
+   ```
+
+3. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+## ⚠️ Limitations
+
+- Predictions are estimates and may not reflect actual examination results.
+- The model's current test performance is limited, so predictions should be interpreted cautiously.
+- The dataset contains selected demographic and educational features and may not represent every student.
+
+## 🔮 Future Enhancements
+
+- Improve prediction performance through model comparison and feature engineering.
+- Add interactive data visualizations.
+- Include additional academic performance indicators.
+- Enhance the interface and reporting features.
+
+## 👩‍💻 Author
+
+**Rakshita Mahesh**  
+Computer Science and Engineering (AI & ML) Student  
+AMC Engineering College
+
+- **GitHub:** [RakshitaMahesh](https://github.com/RakshitaMahesh)
+- **Project Repository:** [Student Performance Prediction](https://github.com/RakshitaMahesh/Student-Performance-Prediction)
+- **Live Demo:** [Open Application](https://student-performance-prediction-w2tgs8wnria6doit5xmerb.streamlit.app/)
