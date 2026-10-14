@@ -48,7 +48,6 @@ An interactive machine learning web application that predicts students' average 
 
 ![Prediction Result](Student_Performance_Prediction_Result.png)
 
-### 3. Prediction Graph
 
 ### 3. Prediction Graph
 
