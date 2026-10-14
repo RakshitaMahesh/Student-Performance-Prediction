@@ -40,7 +40,6 @@ An interactive machine learning web application that predicts students' average 
 - **Dataset:** Students Performance in Exams
 
 ## 📸 Screenshots
-
 ### 1. Student Performance Predictor App
 
 ![Student Performance Predictor App](screenshots/Student_Performance_Predictor_App.png)
@@ -53,6 +52,7 @@ An interactive machine learning web application that predicts students' average 
 
 ![Prediction Graph](screenshots/Student_Performance_Prediction_Graph.png)
 
+## ▶️ Run Locally
 ## ▶️ Run Locally
 
 1. Clone this repository:
